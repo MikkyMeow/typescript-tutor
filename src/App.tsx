@@ -1,11 +1,12 @@
-import React from "react";
+import React, { FC } from "react";
+import { Header } from "./components/Header";
 
-function App() {
+const App: FC = () => {
   return (
     <div>
-      <h1>Hi!</h1>
+      <Header />
     </div>
   );
-}
+};
 
 export default App;
